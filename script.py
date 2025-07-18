@@ -5,7 +5,7 @@ DATA_FILE = "tasks.json"
 
 def load_tasks():
     """Загружает список задач из файла."""
-    if os.path.exists(DATA_FILE): # Используем os.path.exists вместо os.path.isfile
+    if os.path.exists(DATA_FILE): 
         try:
             with open(DATA_FILE, "r", encoding="utf-8") as file:
                 return json.load(file)
@@ -165,5 +165,5 @@ def run():
         save_tasks(task_list) # Сохраняем задачи перед аварийным выходом
         print("Изменения сохранены.")
 
-if __name__ == "__main__": # Исправлено: if name == "main": -> if __name__ == "__main__":
+if __name__ == "__main__":
     run()
