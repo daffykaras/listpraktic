@@ -1,4 +1,4 @@
-<img width="1853" height="935" alt="image" src="https://github.com/user-attachments/assets/29673fb0-fc37-49b6-9722-c3df537000cd" /># ToDoList (Консольное приложение на Python)
+ /># ToDoList (Консольное приложение на Python)
 
 📌 *Описание*
 Простое консольное приложение для ведения списка задач. Подходит для новичков, изучающих Python и Git.
@@ -66,4 +66,5 @@ python sol.py
 
 Выберите действие (1-6): 6
 Список задач сохранён. До свидания!
-📞 Контакты Автор: daffykaras Email: andreev2005@mail.ru GitHub: https://github.com/daffykaras/todolistpraktic
+
+📞 Контакты Автор: daffykaras Email: andreev2005@mail.ru GitHub: https://github.com/daffykaras/listpraktic
